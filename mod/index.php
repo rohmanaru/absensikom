@@ -55,7 +55,7 @@
 	    	<meta content="<?php echo $site_url; ?><?php echo $fullurl; ?>" property="twitter:url"/>
 	    	<meta content="<?php echo $site_name; ?>" property="twitter:title"/>
 	    	<meta content="<?php echo $site_description; ?>" property="twitter:description"/>
-	    	<meta content="<?php echo $site_url; ?>/content/logo/absensionline.jpg" property="twitter:image"/>
+	    	<meta content="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" property="twitter:image"/>
 
 	    	<!--Webapp-->
 	    	<link href="<?php echo $site_url; ?>/manifest.json" rel="manifest"/>
@@ -74,17 +74,17 @@
 	    	<meta content="yes" name="apple-mobile-web-app-capable"/>
 	    	<meta content="yes" name="mobile-web-app-capable"/>
 	    	<meta content="yes" name="apple-touch-fullscreen"/>
-	    	<link href="<?php echo $site_url; ?>/favicon.png" rel="apple-touch-icon"/>
-	    	<link href="<?php echo $site_url; ?>/favicon.png" rel="shortcut icon" type="image/x-icon"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline32.png" rel="icon" sizes="32x32"/>
-	    	<meta content="<?php echo $site_url; ?>/content/logo/absensionline144.png" name="msapplication-TileImage"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline180.png" rel="apple-touch-icon"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline48.png" rel="icon" sizes="48x48"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline72.png" rel="icon" sizes="72x72"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline96.png" rel="icon" sizes="96x96"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline168.png" rel="icon" sizes="168x168"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline192.png" rel="icon" sizes="192x192"/>
-	    	<link href="<?php echo $site_url; ?>/content/logo/absensionline512.png" rel="icon" sizes="512x512"/>
+	    	<link href="<?php echo $site_url; ?>/logo_tlkm.png" rel="apple-touch-icon"/>
+	    	<link href="<?php echo $site_url; ?>/logo_tlkm.png" rel="shortcut icon" type="image/x-icon"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="icon" sizes="32x32"/>
+	    	<meta content="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" name="msapplication-TileImage"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="apple-touch-icon"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="icon" sizes="48x48"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="icon" sizes="72x72"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="icon" sizes="96x96"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="icon" sizes="168x168"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="icon" sizes="192x192"/>
+	    	<link href="<?php echo $site_url; ?>/content/logo/logo_tlkm.png" rel="icon" sizes="512x512"/>
 
 	    	<!--Author-->
 	    	<meta content="<?php echo $site_name; ?>" name="author" />
@@ -183,7 +183,7 @@
 	        						</div>
 	        					</div>
 	        					<div class="col-lg-6">
-	        						<img style="border-radius: 30px;" src="<?php echo $site_url; ?>/content/logo/absensionline.jpg" class="img-fluid">
+	        						<img style="border-radius: 30px;" src="<?php echo $site_url; ?>/content/logo/absensionline_cleanup.jpg" class="img-fluid">
 	        					</div>
 	        				</div>
 	        			</div>
@@ -316,7 +316,7 @@
 	        				</div>
 	        			</div>
 	        			<div class="col-lg-6 col-md-12">
-	        				<br/><img style="border-radius: 30px;" src="<?php echo $site_url; ?>/content/logo/absensionline.jpg" class="img-fluid" title="Fitur <?php echo $site_name; ?>" alt="Fitur <?php echo $site_name; ?>">
+	        				<br/><img style="border-radius: 30px;" src="<?php echo $site_url; ?>/content/logo/absensionline_cleanup.jpg" class="img-fluid" title="Fitur <?php echo $site_name; ?>" alt="Fitur <?php echo $site_name; ?>">
 	        			</div>
 	        		</div>
 	        	</div>

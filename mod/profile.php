@@ -59,7 +59,7 @@ if(!isset($_COOKIE['COOKIES_MEMBER'])){
 
                         <div class="form-group boxed">
                             <div class="input-wrapper">
-                                <label class="label" for="select4">Jabatan</label>
+                                <label class="label" for="select4">Unit</label>
                                 <select class="form-control custom-select" name="position_id">';
                                       $query="SELECT * from position order by position_name ASC";
                                       $result = $connection->query($query);

@@ -168,7 +168,7 @@ echo'
           $row = $result->fetch_assoc();
         echo'
         <h4>Nama   : <span class="employees_name">'.$row['employees_name'].'</span></h4>
-        <h4>Devisi : '.$row['position_name'].'</h4>
+        <h4>Divisi : '.$row['position_name'].'</h4>
         <hr>
         <div class="row">
           <div class="col-md-4">

@@ -71,6 +71,7 @@ if ($mod ==''){
                                             <th scope="col">Tanggal</th>
                                             <th scope="col">Jam Masuk</th>
                                             <th scope="col">Jam Pulang</th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>';

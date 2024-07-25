@@ -56,7 +56,7 @@ if(!isset($_COOKIE['COOKIES_MEMBER'])){
                         </div>
                     </div>';?>
                     <hr>
-                    <a href="#" class="btn btn-primary btn-Convert-Html2Image"><ion-icon name="save-outline"></ion-icon> Siampan ID Card</a>
+                    <a href="#" class="btn btn-primary btn-Convert-Html2Image"><ion-icon name="save-outline"></ion-icon> Simpan ID Card</a>
                     <div id="previewImage" class="d-none"></div>
                 </div>
             </div>

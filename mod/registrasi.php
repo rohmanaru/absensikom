@@ -11,7 +11,7 @@ if ($mod ==''){
         $kode_karyawan = $data['kodeTerbesar'];
         $urutan = (int) substr($kode_karyawan, 3, 3);
         $urutan++;
-        $huruf = "OM";
+        $huruf = "tlkm";
         $kode_karyawan = $huruf . sprintf("%03s", $urutan);
 
         echo '

@@ -52,7 +52,7 @@ echo'
             $warna      = '';
             $background = '';
             $status_hadir     = 'Tidak Hadir';
-          if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+          if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
             $warna='#ffffff';
             $background ='#005CAA';
             $status_hadir ='Libur Akhir Pekan';
@@ -89,8 +89,8 @@ echo'
       $rowa =  $resulta->fetch_assoc();
         // Status Kehadiran
         if($row_absen['time_in'] == NULL){
-          if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
-            $status_hadir ='Libur Akhir Pekan';
+          if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
+            $status_hadir ='-';
           }else{
             $status_hadir ='<span class="label label-danger">Tidak Hadir</span>';
           }
@@ -119,10 +119,10 @@ echo'
          <tr style="background:'.$background.';color:'.$warna.'">
             <td class="text-center">'.$d.'</td>
             <td>'.format_hari_tanggal($date_month_year).'</td>';
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_in'] ==''){
                 echo'
-                <td class="text-center">Libur Akhir Pekan</td>
+                <td class="text-center">-</td>
                 <td class="text-center">Libur Akhir Pekan</td>';
               }
               else{
@@ -152,10 +152,10 @@ echo'
             <td>'.$row_absen['time_in'].'</td>';
             }
           
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_out'] ==''){
                 echo'
-                <td class="text-center">Libur Akhir Pekan</td>
+                <td class="text-center">-</td>
                 <td class="text-center">Libur Akhir Pekan</td>';
               }
               else{

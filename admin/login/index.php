@@ -68,7 +68,7 @@ else {
 ?>
 
     <footer class="text-muted text-center">
-      Redeveloped by <a href="https://mycoding.id" rel="dofollow" target="_blank">MC Project</a> - <a href="https://401xd.com" rel="dofollow" target="_blank">401XD Group</a><br/><div style="display: none;"><a class="credits" href="https://s-widodo.com" rel="nofollow" target="_blank"></a></div>
+      Redeveloped by <a href="https://mycoding.id" rel="dofollow" target="_blank">Geng Kangkung</a> - <a href="https://401xd.com" rel="dofollow" target="_blank">401XD Group</a><br/><div style="display: none;"><a class="credits" href="https://s-widodo.com" rel="nofollow" target="_blank"></a></div>
     </footer>
 
     <script src="../assets/js/jquery.min.js"></script>

@@ -15,7 +15,7 @@ function convert($size){
 echo'
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-    Redeveloped by <a href="https://mycoding.id" rel="dofollow" target="_blank">MC Project</a> - <a href="https://401xd.com" rel="dofollow" target="_blank">401XD Group</a>
+    Redeveloped by <a href="https://mycoding.id" rel="dofollow" target="_blank">Geng Kangkung</a> - <a href="https://401xd.com" rel="dofollow" target="_blank"></a>
     </div> <div style="display: none;"><a class="credits" href="https://s-widodo.com" rel="nofollow" target="_blank"></a></div>
      &copy;'.DATE('Y').' '.$site_name.'
   </footer>

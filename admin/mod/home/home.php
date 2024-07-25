@@ -40,7 +40,7 @@ echo'
           <div class="small-box bg-yellow">
             <div class="inner">
               <h3>'.$result_count_position->num_rows.'</h3>
-              <p>Jabatan</p>
+              <p>Unit</p>
             </div>
             <div class="icon">
               <i class="fa fa fa-briefcase"></i>

@@ -68,7 +68,7 @@ echo'
       }
         echo'
         <p>Nama   : '.$row['employees_name'].'</p>
-        <p>Devisi : '.$row['position_name'].'</p><br>
+        <p>Divisi : '.$row['position_name'].'</p><br>
       <div class="content_box">
         <table class="customTable">
           <thead>
@@ -86,7 +86,7 @@ echo'
             $warna      = '';
             $background = '';
             $status     = 'Tidak Hadir';
-          if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+          if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
             $warna='white';
             $background ='#005CAA';
             $status ='Libur Akhir Pekan';
@@ -118,7 +118,7 @@ echo'
       $rowa =  $resulta->fetch_assoc();
 
           if($row_absen['time_in'] == NULL){
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
               $status ='Libur Akhir Pekan';
             }else{
               $status ='<span class="label label-danger">Tidak Hadir</span>';
@@ -146,7 +146,7 @@ echo'
          <tr style="background:'.$background.';color:'.$warna.'">
             <td class="text-center">'.$d.'</td>
             <td>'.format_hari_tanggal($date_month_year).'</td>';
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_in'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
@@ -162,7 +162,7 @@ echo'
               <td>'.$row_absen['time_in'].'</td>';
             }
           
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_out'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
@@ -297,7 +297,7 @@ echo'
         }
         echo'
         <p>Nama   : '.$row['employees_name'].'</p>
-        <p>Devisi : '.$row['position_name'].'</p><br>
+        <p>Divisi : '.$row['position_name'].'</p><br>
         <div class="content_box">
         <table class="customTable">
           <thead>
@@ -315,7 +315,7 @@ echo'
             $warna      = '';
             $background = '';
             $status     = 'Tidak Hadir';
-          if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+          if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
             $warna='white';
             $background ='#005CAA';
             $status ='Libur Akhir Pekan';
@@ -348,7 +348,7 @@ echo'
       $rowa =  $resulta->fetch_assoc();
 
           if($row_absen['time_in'] == NULL){
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
               $status ='Libur Akhir Pekan';
             }else{
               $status ='<span class="label label-danger">Tidak Hadir</span>';
@@ -374,7 +374,7 @@ echo'
          <tr style="background:'.$background.';color:'.$warna.'">
             <td class="text-center">'.$d.'</td>
             <td>'.format_hari_tanggal($date_month_year).'</td>';
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_in'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
@@ -390,7 +390,7 @@ echo'
               <td>'.$row_absen['time_in'].'</td>';
             }
           
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_out'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
@@ -507,7 +507,7 @@ echo'
       }
         echo'
         <p>Nama   : '.$row['employees_name'].'</p>
-        <p>Devisi : '.$row['position_name'].'</p><br>
+        <p>Divisi : '.$row['position_name'].'</p><br>
       <div class="content_box">
         <table class="customTable">
           <thead>
@@ -525,7 +525,7 @@ echo'
             $warna      = '';
             $background = '';
             $status     = 'Tidak Hadir';
-          if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+          if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
             $warna='white';
             $background ='#005CAA';
             $status ='Libur Akhir Pekan';
@@ -551,7 +551,7 @@ echo'
       $rowa =  $resulta->fetch_assoc();
 
           if($row_absen['time_in'] == NULL){
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
               $status ='Libur Akhir Pekan';
             }else{
               $status ='<span class="label label-danger">Tidak Hadir</span>';
@@ -579,7 +579,7 @@ echo'
          <tr style="background:'.$background.';color:'.$warna.'">
             <td class="text-center">'.$d.'</td>
             <td>'.format_hari_tanggal($date_month_year).'</td>';
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_in'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
@@ -595,7 +595,7 @@ echo'
               <td>'.$row_absen['time_in'].'</td>';
             }
           
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_out'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
@@ -716,7 +716,7 @@ echo'
       }
         echo'
         <p>Nama   : '.$row['employees_name'].'</p>
-        <p>Devisi : '.$row['position_name'].'</p><br>
+        <p>Divisi : '.$row['position_name'].'</p><br>
       <div class="content_box">
         <table class="customTable">
           <thead>
@@ -734,7 +734,7 @@ echo'
             $warna      = '';
             $background = '';
             $status     = 'Tidak Hadir';
-          if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+          if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
             $warna='white';
             $background ='#005CAA';
             $status ='Libur Akhir Pekan';
@@ -760,7 +760,7 @@ echo'
       $rowa =  $resulta->fetch_assoc();
 
           if($row_absen['time_in'] == NULL){
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday") {
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday") {
               $status ='Libur Akhir Pekan';
             }else{
               $status ='<span class="label label-danger">Tidak Hadir</span>';
@@ -788,7 +788,7 @@ echo'
          <tr style="background:'.$background.';color:'.$warna.'">
             <td class="text-center">'.$d.'</td>
             <td>'.format_hari_tanggal($date_month_year).'</td>';
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_in'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
@@ -804,7 +804,7 @@ echo'
               <td>'.$row_absen['time_in'].'</td>';
             }
           
-            if (date("l",mktime (0,0,0,$bulan,$d,$tahun)) == "Sunday"){
+            if (date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Sunday" || date("l", mktime(0, 0, 0, $bulan, $d, $tahun)) == "Saturday"){
               if($row_absen['time_out'] ==''){
                 echo'
                 <td class="text-center">Libur Akhir Pekan</td>';
